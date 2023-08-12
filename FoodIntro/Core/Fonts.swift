@@ -1,6 +1,6 @@
 //
 //  Fonts.swift
-//  SnappFoodIntro
+//  FoodIntro
 //
 //  Created by mohsen mokhtari on 8/12/23.
 //

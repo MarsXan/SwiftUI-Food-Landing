@@ -1,6 +1,5 @@
 //
 //  Images.swift
-//  SnappFoodIntro
 //
 //  Created by mohsen mokhtari on 8/12/23.
 //
