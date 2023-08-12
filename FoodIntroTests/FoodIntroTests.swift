@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import SnappFoodIntro
+@testable import FoodIntro
 
 final class SnappFoodIntroTests: XCTestCase {
 

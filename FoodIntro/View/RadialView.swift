@@ -65,29 +65,7 @@ struct RadialLayout<Content:View, Item:RandomAccessCollection, ID:Hashable> : Vi
                 calculateIndex(count)
             }
             
-            .gesture(
-                DragGesture()
-                    .onChanged({value in
-                        let translationX = value.translation.width
-                        let progress = translationX / (viewSize * 2)
-                        let rotationFraction = 360.0 / count
-                        
-                        dragRotation = .init(degrees:(rotationFraction * progress) + lastDragRotation.degrees)
-                        calculateIndex(count)
-                        
-                    }).onEnded({value in
-                        let translationX = value.translation.width
-                        let progress = (translationX / (viewSize * 2)).rounded()
-                        let rotationFraction = 360.0 / count
-                        
-                        withAnimation {
-                            dragRotation = .init(degrees:(rotationFraction * progress) + lastDragRotation.degrees)
-                        }
-                        lastDragRotation = dragRotation
-                        calculateIndex(count)
-                    })
             
-            )
         })
        
         }
