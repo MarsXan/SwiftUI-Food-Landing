@@ -14,6 +14,16 @@
 		8283E6C72A8782FE00550B3E /* SnappFoodIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283E6C62A8782FE00550B3E /* SnappFoodIntroTests.swift */; };
 		8283E6D12A8782FE00550B3E /* SnappFoodIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283E6D02A8782FE00550B3E /* SnappFoodIntroUITests.swift */; };
 		8283E6D32A8782FE00550B3E /* SnappFoodIntroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283E6D22A8782FE00550B3E /* SnappFoodIntroUITestsLaunchTests.swift */; };
+		8283E6E02A87917800550B3E /* RadialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283E6DF2A87917800550B3E /* RadialView.swift */; };
+		8283E6E52A87AB7B00550B3E /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283E6E42A87AB7B00550B3E /* Images.swift */; };
+		8283E6E72A87AC2B00550B3E /* FoodIntroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283E6E62A87AC2B00550B3E /* FoodIntroModel.swift */; };
+		8283E6ED2A87BC1400550B3E /* IRANSansWeb_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8283E6EA2A87BC1300550B3E /* IRANSansWeb_Medium.ttf */; };
+		8283E6EE2A87BC1400550B3E /* IRANSansWeb_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8283E6EB2A87BC1400550B3E /* IRANSansWeb_Bold.ttf */; };
+		8283E6EF2A87BC1400550B3E /* IRANSansWeb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8283E6EC2A87BC1400550B3E /* IRANSansWeb.ttf */; };
+		8283E6F32A87BDD700550B3E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283E6F22A87BDD700550B3E /* Fonts.swift */; };
+		8283E6F52A87BE1700550B3E /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283E6F42A87BE1700550B3E /* View+Ext.swift */; };
+		8283E6F72A87C6B000550B3E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283E6F62A87C6B000550B3E /* Colors.swift */; };
+		8283E6F92A87CAE200550B3E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8283E6F82A87CAE200550B3E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,17 @@
 		8283E6CC2A8782FE00550B3E /* SnappFoodIntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappFoodIntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8283E6D02A8782FE00550B3E /* SnappFoodIntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappFoodIntroUITests.swift; sourceTree = "<group>"; };
 		8283E6D22A8782FE00550B3E /* SnappFoodIntroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappFoodIntroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8283E6DF2A87917800550B3E /* RadialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialView.swift; sourceTree = "<group>"; };
+		8283E6E42A87AB7B00550B3E /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		8283E6E62A87AC2B00550B3E /* FoodIntroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodIntroModel.swift; sourceTree = "<group>"; };
+		8283E6EA2A87BC1300550B3E /* IRANSansWeb_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansWeb_Medium.ttf; sourceTree = "<group>"; };
+		8283E6EB2A87BC1400550B3E /* IRANSansWeb_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansWeb_Bold.ttf; sourceTree = "<group>"; };
+		8283E6EC2A87BC1400550B3E /* IRANSansWeb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansWeb.ttf; sourceTree = "<group>"; };
+		8283E6F12A87BD8000550B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8283E6F22A87BDD700550B3E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		8283E6F42A87BE1700550B3E /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		8283E6F62A87C6B000550B3E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8283E6F82A87CAE200550B3E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +95,7 @@
 		8283E6A92A8782F800550B3E = {
 			isa = PBXGroup;
 			children = (
+				8283E6F82A87CAE200550B3E /* .gitignore */,
 				8283E6B42A8782F800550B3E /* SnappFoodIntro */,
 				8283E6C52A8782FE00550B3E /* SnappFoodIntroTests */,
 				8283E6CF2A8782FE00550B3E /* SnappFoodIntroUITests */,
@@ -94,8 +116,11 @@
 		8283E6B42A8782F800550B3E /* SnappFoodIntro */ = {
 			isa = PBXGroup;
 			children = (
+				8283E6F12A87BD8000550B3E /* Info.plist */,
+				8283E6F02A87BD3400550B3E /* Core */,
+				8283E6E82A87BBCA00550B3E /* SupportingFiles */,
+				8283E6E32A87AB6200550B3E /* View */,
 				8283E6B52A8782F800550B3E /* SnappFoodIntroApp.swift */,
-				8283E6B72A8782F800550B3E /* ContentView.swift */,
 				8283E6B92A8782FE00550B3E /* Assets.xcassets */,
 				8283E6BB2A8782FE00550B3E /* Preview Content */,
 			);
@@ -125,6 +150,45 @@
 				8283E6D22A8782FE00550B3E /* SnappFoodIntroUITestsLaunchTests.swift */,
 			);
 			path = SnappFoodIntroUITests;
+			sourceTree = "<group>";
+		};
+		8283E6E32A87AB6200550B3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8283E6E62A87AC2B00550B3E /* FoodIntroModel.swift */,
+				8283E6DF2A87917800550B3E /* RadialView.swift */,
+				8283E6B72A8782F800550B3E /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8283E6E82A87BBCA00550B3E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8283E6E92A87BBD700550B3E /* Font */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8283E6E92A87BBD700550B3E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8283E6EB2A87BC1400550B3E /* IRANSansWeb_Bold.ttf */,
+				8283E6EA2A87BC1300550B3E /* IRANSansWeb_Medium.ttf */,
+				8283E6EC2A87BC1400550B3E /* IRANSansWeb.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8283E6F02A87BD3400550B3E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8283E6E42A87AB7B00550B3E /* Images.swift */,
+				8283E6F22A87BDD700550B3E /* Fonts.swift */,
+				8283E6F42A87BE1700550B3E /* View+Ext.swift */,
+				8283E6F62A87C6B000550B3E /* Colors.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +295,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8283E6ED2A87BC1400550B3E /* IRANSansWeb_Medium.ttf in Resources */,
+				8283E6EF2A87BC1400550B3E /* IRANSansWeb.ttf in Resources */,
+				8283E6EE2A87BC1400550B3E /* IRANSansWeb_Bold.ttf in Resources */,
 				8283E6BD2A8782FE00550B3E /* Preview Assets.xcassets in Resources */,
+				8283E6F92A87CAE200550B3E /* .gitignore in Resources */,
 				8283E6BA2A8782FE00550B3E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8283E6F52A87BE1700550B3E /* View+Ext.swift in Sources */,
+				8283E6F72A87C6B000550B3E /* Colors.swift in Sources */,
 				8283E6B82A8782F800550B3E /* ContentView.swift in Sources */,
+				8283E6E72A87AC2B00550B3E /* FoodIntroModel.swift in Sources */,
+				8283E6E52A87AB7B00550B3E /* Images.swift in Sources */,
 				8283E6B62A8782F800550B3E /* SnappFoodIntroApp.swift in Sources */,
+				8283E6F32A87BDD700550B3E /* Fonts.swift in Sources */,
+				8283E6E02A87917800550B3E /* RadialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +494,7 @@
 				DEVELOPMENT_TEAM = 9SAUD8H4S8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnappFoodIntro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +524,7 @@
 				DEVELOPMENT_TEAM = 9SAUD8H4S8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnappFoodIntro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
